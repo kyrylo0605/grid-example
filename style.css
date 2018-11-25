@@ -1,0 +1,75 @@
+body {
+
+	font-family: "Segoe UI", sans-serif;
+	font-size: 1rem;
+}
+
+
+ #grid {
+    display: grid;
+    grid-template-columns: 33vw;
+    grid-auto-columns: 33vw;
+    grid-template-rows: 300px;
+    grid-auto-rows: 300px;
+  }
+  #A { grid-column: 1; grid-row: 1; margin: 10px; z-index: 1;}
+  #B { grid-column: 2; grid-row: 1; margin: 10px; z-index: 2;}
+  #C { grid-column: 3; grid-row: 1; margin: 10px; z-index: 3;}
+  #D { grid-column: 1; grid-row: 2; margin: 10px; z-index: 4;}
+  #E { grid-column: 2; grid-row: 2; margin: 10px; z-index: 5;}
+  #F { grid-column: 3; grid-row: 2; margin: 10px; z-index: 6;}
+  #G { grid-column: 1; grid-row: 3; margin: 10px; z-index: 7;}
+  #H { grid-column: 2; grid-row: 3; margin: 10px; z-index: 8;}
+  #I { grid-column: 3; grid-row: 3; margin: 10px; z-index: 9;}
+  #J { grid-column: 1; grid-row: 4; margin: 10px; z-index: 10;}
+  #K { grid-column: 2; grid-row: 4; margin: 10px; z-index: 11;}
+  #L { grid-column: 3; grid-row: 4; margin: 10px; z-index: 12;}
+  #M { grid-column: 1; grid-row: 5; margin: 10px; z-index: 13;}
+  #N { grid-column: 2; grid-row: 5; margin: 10px; z-index: 14;}
+  #O { grid-column: 3; grid-row: 5; margin: 10px; z-index: 15;}
+  #P { grid-column: 1; grid-row: 6; margin: 10px; z-index: 16;}
+  #Q { grid-column: 2; grid-row: 6; margin: 10px; z-index: 17;}
+  #R { grid-column: 3; grid-row: 6; margin: 10px; z-index: 18;}
+
+
+ @media (max-width: 1400px) {
+
+	#grid {
+    display: grid;
+    grid-template-columns: 33vw;
+    grid-auto-columns: 33vw;
+    grid-template-rows: 600px;
+    grid-auto-rows: 600px;
+  }
+  #A { grid-column: 1; grid-row: 1; margin: 10px; z-index: 1;}
+  #B { grid-column: 2; grid-row: 1; margin: 10px; z-index: 2;}
+  #C { grid-column: 3; grid-row: 1; margin: 10px; z-index: 3;}
+  #D { grid-column: 1; grid-row: 2; margin: 10px; z-index: 4;}
+  #E { grid-column: 2; grid-row: 2; margin: 10px; z-index: 5;}
+  #F { grid-column: 3; grid-row: 2; margin: 10px; z-index: 6;}
+  #G { grid-column: 1; grid-row: 3; margin: 10px; z-index: 7;}
+  #H { grid-column: 2; grid-row: 3; margin: 10px; z-index: 8;}
+  #I { grid-column: 3; grid-row: 3; margin: 10px; z-index: 9;}
+  #J { grid-column: 1; grid-row: 4; margin: 10px; z-index: 10;}
+  #K { grid-column: 2; grid-row: 4; margin: 10px; z-index: 11;}
+  #L { grid-column: 3; grid-row: 4; margin: 10px; z-index: 12;}
+  #M { grid-column: 1; grid-row: 5; margin: 10px; z-index: 13;}
+  #N { grid-column: 2; grid-row: 5; margin: 10px; z-index: 14;}
+  #O { grid-column: 3; grid-row: 5; margin: 10px; z-index: 15;}
+  #P { grid-column: 1; grid-row: 6; margin: 10px; z-index: 16;}
+  #Q { grid-column: 2; grid-row: 6; margin: 10px; z-index: 17;}
+  #R { grid-column: 3; grid-row: 6; margin: 10px; z-index: 18;}
+
+	p {
+
+		font-size: 15px;
+	}
+
+}
+
+	p {
+
+		font-size: 10px;
+	}
+
+}
